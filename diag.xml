@@ -1,0 +1,93 @@
+<shema width="800" height="600" mnname="Новая мнемосхема 1" bkcolor="#FFFFFF">
+    <object height="320" width="350" cy="50" cx="20" goid="0" type="TDiagram">
+        <options>
+            <diagramform>Pie</diagramform>
+            <diagramtype>Historical</diagramtype> <!-- Тип диаграммы -->
+            <historicaltype>Interpolated</historicaltype> <!-- Тип исторических запросов -->
+            <updateperiod>10</updateperiod> <!-- Период обновления диаграммы в минутах -->
+            <showlabels>1</showlabels> <!-- Показывать метки -->
+            <showlegend>1</showlegend> <!-- Показывать легенду -->
+            <showtitle>1</showtitle> <!-- Показывать заголовок -->
+            <showframe>1</showframe> <!-- Показать рамку -->
+            <backgroundcolor>#FFFFFF</backgroundcolor> <!-- Цвет фона -->
+            <threeD>1</threeD> <!-- 3D -->
+        </options>
+        <params>
+            <label>
+                <font name="Arial" size="10" color="#000000"/>
+            </label>
+            <legend>
+                <backgroundcolor>#EFEFEF</backgroundcolor> <!-- Цвет фона легенды -->
+                <bordercolor>#CCCCCC</bordercolor> <!-- Цвет рамки легенды -->
+                <shadowcolor>#888888</shadowcolor> <!-- Цвет тени легенды -->
+                <font name="Arial" size="10" color="#000000"/>
+            </legend>
+            <parameters>
+                <parameter name="1парам" color="#FFFF00" value="15"/> <!-- Значение параметра 1 -->
+                <parameter name="2парам" color="#FF0000" value="30"/> <!-- Значение параметра 2 -->
+                <parameter name="3парам" color="#0000FF" value="25"/> <!-- Значение параметра 2 -->
+            </parameters>
+            <title>
+                <text>Pie Chart</text> <!-- Текст заголовка -->
+                <alignment>center</alignment> <!-- Выравнивание заголовка -->
+                <font name="Arial" size="10" color="#000000"/>
+            </title>
+            <threeD>
+                <orthogyny>1</orthogyny>
+                <scaletext>1</scaletext> <!-- Масштабировать текст -->
+                <percent>50</percent> <!-- Процент 3D (0-100) -->
+                <scale>100</scale> <!-- Масштаб (1% - 500%) -->
+                <rotation>360</rotation> <!-- Поворот (0-360 градусов) -->
+                <tilt>340</tilt> <!-- Наклон (270 - 360) -->
+                <perspective>50</perspective> <!-- Перспектива (0-100) -->
+            </threeD>
+        </params>
+    </object>
+    <object height="320" width="400" cy="50" cx="390" goid="1" type="TDiagram">
+        <options>
+            <diagramform>Bar</diagramform>
+            <barchartshape>Rectangles</barchartshape>
+            <diagramtype>Historical</diagramtype> <!-- Тип диаграммы -->
+            <historicaltype>Interpolated</historicaltype> <!-- Тип исторических запросов -->
+            <updateperiod>10</updateperiod> <!-- Период обновления диаграммы в минутах -->
+            <barcharttype>Vertical</barcharttype> <!--Horizontal / Vertical Тип столбиковой диаграммы (Вертикальная) -->
+            <showlabels>1</showlabels> <!-- Показывать метки -->
+            <showlegend>1</showlegend> <!-- Показывать легенду -->
+            <showframe>1</showframe> <!-- Показать рамку -->
+            <showtitle>1</showtitle> <!-- Показывать заголовок -->
+            <showaxesgrid>1</showaxesgrid> <!-- Показывать оси и сетку -->
+            <backgroundcolor>#FFFFFF</backgroundcolor> <!-- Цвет фона -->
+            <threeD>1</threeD> <!-- 3D -->
+        </options>
+        <params>
+            <label>
+                <font name="Arial" size="10" color="#000000"/>
+            </label>
+            <legend>
+                <backgroundcolor>#EFEFEF</backgroundcolor> <!-- Цвет фона легенды -->
+                <bordercolor>#CCCCCC</bordercolor> <!-- Цвет рамки легенды -->
+                <shadowcolor>#888888</shadowcolor> <!-- Цвет тени легенды -->
+                <font name="Arial" size="10" color="#000000"/>
+            </legend>
+            <parameters>
+               <parameter name="1парам" color="#FFFF00" value="15"/> <!-- Значение параметра 1 -->
+                <parameter name="2парам" color="#FF0000" value="30"/> <!-- Значение параметра 2 -->
+                <parameter name="3парам" color="#0000FF" value="25"/> <!-- Значение параметра 2 -->
+            </parameters>
+            <title>
+                <text>Bar Chart</text> <!-- Текст заголовка -->
+                <alignment>center</alignment> <!-- Выравнивание заголовка -->
+                <font name="Arial" size="10" color="#000000"/>
+            </title>
+            <threeD>
+                <scaletext>1</scaletext> <!-- Масштабировать текст -->
+                <orthogyny>0</orthogyny>
+                <percent>60</percent> <!-- Процент 3D (0-100) -->
+                <scale>100</scale> <!-- Масштаб (1% - 500%) -->
+                <rotation>60</rotation> <!-- Поворот (0-360 градусов) -->
+                <tilt>360</tilt> <!-- Наклон (270 - 360) -->
+                <perspective>100</perspective> <!-- Перспектива (0-100) -->
+            </threeD>
+        </params>
+    </object>
+</shema>
